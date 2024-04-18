@@ -21,7 +21,7 @@ const NotificationBar = () => {
         {/* text */}
         <div className="flex items-center gap-[8px]">
           <img src={ticketIcon} alt="icon" />
-          <div className="text-capS1">30% off for Exports -- Limited time!</div>
+          <div className="text-capS1">20% off for Exports -- Limited time!</div>
         </div>
 
         {/* button */}
