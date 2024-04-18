@@ -1,6 +1,5 @@
 import instaIcon from '../assets/Icons/instagram.png'
 import fbIcon from '../assets/Icons/fbIcon.png'
-import utubeIcon from '../assets/Icons/youtube.png'
 import { Link } from 'react-router-dom';
 
 
