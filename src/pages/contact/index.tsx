@@ -179,7 +179,7 @@ const Contact = () => {
                 Mail Us
               </h4>
               <p className="text-orange-500 leading-[16px]">
-              support@tenderfest.com
+              support@tenderfest.ng
               </p>
             </div>
           </div>
