@@ -4,8 +4,6 @@ import { BannerGrid } from './BannerGrid'
 import { ProductCarrousel } from '../../components/ProductCarrousel'
 import { Values } from './Values'
 import { SaleBanner } from './SaleBanner'
-// import { Blog } from './Blog'
-import { Newsletter } from '../../components/Newsletter'
 import { Footer } from '../../components/Footer'
 import { useState } from 'react'
 
@@ -24,11 +22,11 @@ function Home() {
 
         <Hero/>
         <BannerGrid/>
-        <ProductCarrousel tag={<div>New <br/> Arrivals</div> }/>
+        <ProductCarrousel tag={<div>Frequently<br/> Imported</div> }/>
         <Values/>
         <SaleBanner/>
         {/* <Blog/> */}
-        <Newsletter/>
+        {/* <Newsletter/> */}
         <Footer/>
     </div>
   )

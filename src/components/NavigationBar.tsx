@@ -34,7 +34,7 @@ const NavigationBar: FC<IProp> = ({ open, cartBar }) => {
 
       <nav className="h-[60px] flex justify-between items-center  px-8 sm:px-40 bg-white overflow-hidden">
         <div className="text-[24px] font-bold text-gray-500 font-poppins ">
-          BroadStack<span className="text-gray-400">.</span>
+          Tenderfest<span className="text-gray-400">.</span>
         </div>
 
         {/* cart sidebar */}

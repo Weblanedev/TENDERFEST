@@ -1,9 +1,4 @@
 import { CardCarrousel } from "./cards/CardCarrousel"
-import pdt1 from '../assets/products/product-2.png'
-import pdt2 from '../assets/products/product-7.png'
-import pdt3 from '../assets/products/product-8.png'
-import pdt4 from '../assets/products/product-10.png'
-import pdt5 from '../assets/products/product-9.png'
 import { FC } from "react"
 
 interface ICarrouselTagProp {
@@ -24,11 +19,10 @@ export const ProductCarrousel: FC<ICarrouselTagProp> = ({tag}) => {
       <div className="h-[433px] flex gap-5 overflow-hidden">
 
         {/* card */}
-       <CardCarrousel img={pdt1} tag='loveseat sofa' price='199.00' country="Tanzania" slashP={400.00}  />
-       <CardCarrousel img={pdt2} tag='table lamp' price='24.99' country="Japan" slashP={0} />
-       <CardCarrousel img={pdt3} tag='beige table lamp' price='25.00' country="Mexico" slashP={0}/>
-       <CardCarrousel img={pdt4} tag='bamboo basket' price='195.00' country="Korea" slashP={0}/>
-       <CardCarrousel img={pdt5} tag='itchen lamp' price='30.00' country="France" slashP={0}/>
+       <CardCarrousel img={"https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} tag='Apple MacBook' price='299.00' country="Italy" slashP={400.00}  />
+       <CardCarrousel img={"https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} tag='Camera' price='123.99' country="Japan" slashP={0} />
+       <CardCarrousel img={"https://images.pexels.com/photos/2783873/pexels-photo-2783873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} tag='Wrist Watch' price='245.00' country="Mexico" slashP={0}/>
+       <CardCarrousel img={"https://images.pexels.com/photos/7428103/pexels-photo-7428103.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} tag='Conditioner' price='55.00' country="Columbia" slashP={0}/>
        </div>
       
     </section>
