@@ -190,7 +190,7 @@ const Contact = () => {
                 Address
               </h4>
               <p className="text-orange-500 leading-normal">
-                Lagos, Nigeira
+               Block 112 Plot 14A, Daniyan Natalia Street, Lekki, Lagos
               </p>
             </div>
           </div>
